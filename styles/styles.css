@@ -35,7 +35,6 @@ header{
   font-size: 20px;
 }
 .main-body{
-  display: flex;
   margin: 131px 322px 0 206px;
   display: flex;
   align-items: center;
@@ -61,7 +60,6 @@ header{
 }
 .main-body .main-info .main-list{
   list-style: none;
-  margin-right: px;
 }
 .main-body .main-info .main-list li::before{
   content: "✓ ";
@@ -98,4 +96,124 @@ header{
   font-size: 25px;
   color: #737272;
   text-align: center;
+}
+
+/* .banner{
+  position: relative;
+  overflow: hidden;
+  margin: 130px 230px;
+  height: 300px;
+  border-radius: 8px;
+}
+.banner .img-1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .img-2{
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+/* 
+.main-card .skill-bg {
+  max-height: 322px;
+  height: 100%;
+  background: url("../images/gradient1.png"), url("../images/watch.png");
+  padding-bottom: 50px;
+  margin: 130px 230px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.main-card .skill-bg .skills-content {
+  max-width: 460px;
+  width: 100%;
+  text-align: start;
+  padding: 100px 0 0 100px;
+}
+.main-card .skill-bg .skills-content h2 {
+  font-size: 30px;
+  margin-bottom: 24px;
+  color: #ffff;
+  display: flex;
+
+  font-weight: 700;
+  border: 1px solid red;
+}
+
+.main-card .skill-bg .skills-content button {
+  padding: 16px 30px;
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  color: rgba(0, 106, 255, 1);
+  font-size: 16px;
+  border: 1px solid red;
+} */
+
+
+footer .main-section{
+  background-color: #151414;
+  display: flex;
+  margin-top: 130px;
+  align-items: center;
+}
+
+footer .main-section .contain{
+  margin: 130px 0 0 230px;
+}
+
+footer .main-section .contain h2{
+  font-size: 45px;
+  color: #F8F8F8;
+  margin-bottom: 16px;
+  height: 53px;
+  width: 148px;
+}
+footer .main-section .contain p{
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 26px;
+  width: 485px;
+  margin-bottom: 16px;
+}
+
+footer .main-section form{
+  margin: 130px 0 70px 313px;
+  width: 325px;
+  height: 204px;
+}
+footer .main-section form h4{
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+footer .main-section form input{
+  width: 325px;
+  height: 64px;
+  outline: none;
+  border: 1px solid white;
+  margin: 32px 0 16px 0;
+  font-size: 18px;
+  color: #F3F3F3;
+  background-color: #151414;
+  border-radius: 8px;
+
+}
+
+footer .main-section form button{
+  background-color: #005FAC;
+  color: #FFFFFF;
+  height: 64px;
+  width: 170px;
+  border-radius: 8px;
+}
+footer .main-section .contain .logo img{
+  margin-right: 17px;
+  margin-bottom: 130px;
 }
